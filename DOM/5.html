@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>append Example</title>
+</head>
+
+<body>
+  <div>
+    <h1>appendExample</h1>
+  </div>
+
+  <div id="containerAppend">
+
+  </div>
+
+  <button onclick="addUsingAppend()">Add Using Append</button>
+
+
+  <script>
+    function addUsingAppend() {
+      let container = document.getElementById("containerAppend")
+      let newElement = document.createElement("p")
+      newElement.textContent = "pertama"
+      let textAdditonal = "kedua"
+
+      container.append(newElement, textAdditonal)
+
+    }
+  </script>
+
+</body>
+
+</html>

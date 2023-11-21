@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Click Event Example</title>
+</head>
+
+<body>
+
+  <button id="myButton"> Click Me!</button>
+  <p id="message" style="color:blue;"></p>
+  
+
+  <script>
+    document.getElementById("myButton").addEventListener("click", function(){
+      document.getElementById("message").innerText = "You Clicked Me!"
+    })
+    
+  </script>
+
+</body>
+
+</html>

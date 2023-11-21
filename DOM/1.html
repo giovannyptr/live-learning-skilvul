@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>InnerHTML vs TextContent</title>
+</head>
+<body>
+
+<div id="example">
+    Hello, <b>world</b>
+</div>
+
+<button onclick="showInnerHTML()">Show InnerHTML</button>
+<button onclick="showTextContent()">Show TextContent</button>
+
+<script>
+    function showInnerHTML() {
+        alert(document.getElementById("example").innerHTML)
+    }
+
+    function showTextContent() {
+        alert(document.getElementById("example").textContent)
+    }
+
+   
+</script>
+
+</body>
+</html>

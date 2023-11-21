@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>InnerHTML Example</title>
+</head>
+
+<body>
+  <div>
+    <h1>Add Element with Inner HTML</h1>
+  </div>
+
+  <div id="containerInnerHTML">
+
+  </div>
+
+  <button onclick="addUsingInnerHTML()">Add Using InnerHTML</button>
+
+
+  <script>
+    function addUsingInnerHTML() {
+      let container = document.getElementById("containerInnerHTML");
+      container.innerHTML += '<p> This is new paragraph created by InnerHTML <p>'
+    }
+
+
+
+  </script>
+
+</body>
+
+</html>
