@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Create Element Example</title>
+</head>
+
+<body>
+  <div>
+    <h1>Create Element Example</h1>
+  </div>
+
+  <div id="example"> </div>
+
+  <button onclick="addElement()">Add New Element</button>
+
+  <script>
+    function addElement() {
+        //create a new paragraph element
+        let newElement = document.createElement("p")
+
+        //set textContent
+        newElement.textContent = "A new paragraph added"
+
+        //Append the new element to div example
+        document.getElementById("example").appendChild(newElement)
+    }
+
+
+  </script>
+
+</body>
+
+</html>

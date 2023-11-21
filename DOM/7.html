@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Blur Event Example</title>
+</head>
+
+<body>
+
+  <label for="username">UserName:</label>
+  <input type="text" id="username" placeholder="Enter username">
+  <p id="feedback" style="color:red"></p>
+  
+
+  <script>
+    document.getElementById("username").addEventListener("blur", function() {
+      let input = this.value
+      if(input.length < 4) {
+        document.getElementById("feedback").innerText = "Username must be at least 4 characters long."
+      } else {
+        document.getElementById("feedback").innerText = "Your username has been added"
+      }
+    })
+    
+  </script>
+
+</body>
+
+</html>
