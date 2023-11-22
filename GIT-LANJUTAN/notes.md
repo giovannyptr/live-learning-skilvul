@@ -19,3 +19,4 @@ git log --all --full-history -- **/[notes.md]
 ->
 untuk check log berdasarkan nama file
 
+.....
