@@ -15,4 +15,3 @@ git checkout ->
 untuk pindah branch
 
 
-ashsfkjeojfposjfnh
