@@ -13,3 +13,6 @@ untuk mencek status pada git kita (branch, commit, staged codingan)
 
 git checkout ->
 untuk pindah branch
+
+
+ashsfkjeojfposjfnh
