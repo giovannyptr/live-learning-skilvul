@@ -18,3 +18,9 @@ untuk pindah branch
 git log --all --full-history -- **/[notes.md]
 ->
 untuk check log berdasarkan nama file
+
+1
+
+2
+
+3
