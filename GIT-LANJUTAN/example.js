@@ -1,0 +1,1 @@
+const example= "this is just for example"
